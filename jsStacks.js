@@ -79,6 +79,7 @@ class Buttons {
 			cursor(HAND);
 			myStack.pop();
 			this.change = this.change + 45;
+			this.count=this.count-=1;
 			console.log(myStack);
 
 		} else if ((mouseX > 20 && mouseX < 60 && mouseY > 315 && mouseY < 355)) {
